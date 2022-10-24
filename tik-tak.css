@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #fff;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 0px;
+	margin: 10px auto;
+	background-color: #C3B1E1;
+}
+
+table tr td {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #5D3FD3;
+	font-size: 30px;
+	text-align: center;
+}
+
+table tr td:hover {
+	background: #cdbfe3;
+	cursor: pointer;
+}
+.winner {
+	width: 240px;
+	height: 140px;
+	margin: 10px auto;
+	font-size: 60px;
+	text-align: center;
+    color: #5D3FD3;
+    background-color: #E6E6FA;
+}
+.winner span {
+	font-size: 40px;
+	display: block;
+}
+#reload {
+padding: 4px 16px 4px 16px;
+border-radius: 8px;
+	margin: 10px auto;
+	display: block;
+	border: none;
+    color: #fff;
+	background-color: #5D3FD3;
+	font-size: 24px;
+}
